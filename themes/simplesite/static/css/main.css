@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;600&display=swap');
+
+/* RESET */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    margin-bottom: 0;
+    width: 100%;
+}
+
+/* NAVIGATION */
+
+header {
+    height: 50px;
+    width: 100%;
+    background-color: darkslategray;
+    position: relative;
+    padding: 0 20px;
+  }
+  
+  .nav {
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .nav a, .nav ul {
+    margin-bottom: 0;
+  }
+  
+  .nav>.nav-header {
+    display: inline;
+  }
+  
+  .nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Fira Sans', Arial, sans-serif;
+    padding: 10px 0;
+  }
+  
+  .nav-title a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .nav-btn {
+    display: none;
+  }
+  
+  .nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+  }
+  
+  .nav-links>ul li a {
+    display: block;
+    padding: 0 8px;
+    color: #fff;
+    line-height: 40px;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  .nav-links>ul {
+    padding: 0;
+    margin-top: 5px;
+    list-style: none;
+    position: relative;
+  }
+  
+  .nav-links>ul li {
+    display: inline-block;
+    background-color: darkslategray;
+  }
+  
+  .nav-links > ul li:hover{
+        color: slategray;
+    }
+  
+  #nav-check {
+    display: none;
+  }
+  
+  .nav-links ul a.icon {
+    margin-left: 80px;
+    margin-right: 10px;
+  }
+  
+  .nav .nav-links ul a i {
+    background-color: whitesmoke;
+    border-radius: 50px;
+    padding: 7px;
+    margin-left: 5px;
+  }
+  
+  @media (max-width:750px) {
+    .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+  
+    .nav-btn>label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+  
+    .nav-btn>label:hover, .nav #nav-check:checked~.nav-btn>label {
+      background-color: darkslategray;
+    }
+  
+    .nav-btn>label>span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid whitesmoke;
+    }
+  
+    .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: darkslategray;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    }
+  
+    .nav-links>ul li a {
+      display: block;
+      width: 100%;
+    }
+  
+    /*   */
+  
+    .nav-links>ul li {
+      display: block;
+      margin-bottom: 20px;
+      padding: 0;
+      background-color: darkslategray;
+    }
+  
+    .nav-links>ul li a {
+      margin-left: 40%;
+    }
+  
+    .nav-links ul a.icon {
+      margin-left: 33%;
+    }
+  
+    /*   */
+  
+    #nav-check:not(:checked)~.nav-links {
+      height: 0px;
+    }
+  
+    #nav-check:checked~.nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+  }
+  
+  /* PAGINATION */
+
+  ul.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  ul.pagination li.page-item {
+    display: inline;
+    padding: 3px 6px;
+    margin: 2px;
+    background-color: #aaa;
+    border-radius: 2px;
+    color: #fff;
+  }
+  
+  ul.pagination li.page-item a {
+    text-decoration: none;
+  }
+  
+  ul.pagination li.page-item.disabled {
+    background-color: #ccc;
+  }
+  
+  ul.pagination li.page-item.active{
+    background-color: #333;
+  }
+/* TYPOGRAPHY */
+
+body {
+  font-family: 'Fira Sans', Arial, sans-serif;
+  font: 16px;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.1;
+  margin-bottom: 0.75em;
+  color: darkslategray;
+}
+
+h1 {
+  font-size: 2.0em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.25em;
+}
+
+p, a {
+  line-height: 1.4;
+  margin-bottom: 1.0em;
+  color: #333;
+}
+
+footer p, footer a {
+  margin-bottom: 0;
+  color: whitesmoke;
+}
+
+/* LAYOUT */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
+    background-color: whitesmoke;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.padding-lg {
+  padding: 50px 20px 70px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns:repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+footer {
+  background-color: darkslategray;
+  padding: 30px 20px;
+}

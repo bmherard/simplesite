@@ -1,0 +1,8 @@
+<meta property="og:type" content="website" />
+    <meta property="og:title" content="{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}">
+    <meta property="og:description" content="{{ .Description }}">
+    <!-- <meta property="og:image" content="abc123.jpg"> -->
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:site_name" content="{{ .Site.Title }}">
+    <!-- <meta name="twitter:image:alt" content="image alt text"> -->

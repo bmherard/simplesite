@@ -1,0 +1,33 @@
+{{ partial "head.html" . }}
+
+{{$p := .Pages}}
+{{if .IsHome}}
+{{$p = where site.RegularPages "Type" "in" site.Params.mainSections}}
+{{else if eq .Kind "taxonomy"}}
+{{$p = $p.ByTitle}}
+{{end}}
+{{$paginator := .Paginate $p}}
+
+<section class="padding-lg">
+  <article class="container">
+    <h1>{{ .Title }}</h1>
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); grid-gap: 20px;">
+      {{ .Content }}{{ range.Data.Pages }}
+      <div style="background-color: white">
+        <a href="{{ .RelPermalink }}"><img src="{{ .Params.Thumbnail }}" alt=""></a>
+        <div style="padding: 14px;">
+        <h3>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </h3>
+        <p datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+          {{ .Date.Format "January 2, 2006" }}
+        </p>
+        {{ .Summary }}
+        <a href="{{ .RelPermalink }}">Read More...</a>
+      </div>
+    </div>
+    {{ end }}
+  </article>
+</section>
+<div>{{template "partials/pagination.html" .}}</div>
+{{ partial "footer.html" . }}
