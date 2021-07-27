@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://naughty-kepler-ecc377.netlify.app"
 languageCode = "en-us"
 title = "Brian Herard"
 theme = "simplesite"
