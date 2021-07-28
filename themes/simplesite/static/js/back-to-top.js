@@ -1,13 +1,13 @@
-var mybutton = document.getElementById("myBtn");
+var backToTop = document.getElementById("backToTop");
 
-// when user scrolls down 300px from top of page, show the button
+// when user scrolls down 450px from top of page, show the button
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-    mybutton.style.display = "block";
+  if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
+    backToTop.style.display = "block";
   } else {
-    mybutton.style.display = "none";
+    backToTop.style.display = "none";
   }
 }
 
