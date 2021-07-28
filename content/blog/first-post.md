@@ -1,5 +1,5 @@
 ---
-title: "Why Static Site Generators (SSG)"
+title: "Why Static Site Generators?"
 date: 2020-08-08T17:27:59+07:00
 description: "Static sites have many advantages over dynamic sites, especially if you don't need a database."
 image: "https://source.unsplash.com/7okkFhxrxNw"
