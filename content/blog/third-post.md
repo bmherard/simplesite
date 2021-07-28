@@ -1,12 +1,10 @@
 ---
 title: "Third Post"
-type: "blogpost"
 date: 2020-10-04T18:43:36+07:00
 image: "https://source.unsplash.com/800x300/weekly?wildlife"
 thumbnail: "https://source.unsplash.com/400x200/weekly?wildlife"
 tags: [
-    "t-test1",
-    "t-test2",
+    "featured",
 ]
 categories: [
     "c-test1",

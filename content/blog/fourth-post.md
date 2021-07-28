@@ -1,12 +1,10 @@
 ---
 title: "Forth Post"
-type: "blogpost"
 date: 2020-11-06T18:43:36+07:00
 image: "https://source.unsplash.com/800x300/weekly?nature"
 thumbnail: "https://source.unsplash.com/400x200/weekly?nature"
 tags: [
-    "t-test1",
-    "t-test2",
+    "featured",
 ]
 categories: [
     "c-test1",

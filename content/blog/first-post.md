@@ -1,13 +1,11 @@
 ---
-title: "First Post"
-type: "blogpost"
+title: "Why Static Site Generators (SSG)"
 date: 2020-08-08T17:27:59+07:00
-description: "My Sample Description"
-image: "https://source.unsplash.com/800x300/weekly?water"
-thumbnail: "https://source.unsplash.com/400x200/weekly?water"
+description: "Static sites have many advantages over dynamic sites, especially if you don't need a database."
+image: "https://source.unsplash.com/7okkFhxrxNw"
+thumbnail: "https://source.unsplash.com/7okkFhxrxNw"
 tags: [
-    "t-test1",
-    "t-test2",
+    "featured",
 ]
 categories: [
     "c-test1",

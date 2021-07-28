@@ -11,8 +11,9 @@
 <section class="padding-lg">
   <article class="container">
     <h1>{{ .Title }}</h1>
-    <div class="grid-3">
-      {{ .Content }}{{ range.Data.Pages }}
+    {{ .Content }}
+        <div class="grid-3">
+      {{ range.Data.Pages }}
       <div style="background-color: white">
         <a href="{{ .RelPermalink }}"><img src="{{ .Params.Thumbnail }}" alt=""></a>
         <div style="padding: 14px;">

@@ -18,7 +18,7 @@
     <article class="container">
         <h2>Recent Blog Posts</h2>
         <div class="grid-3">
-            {{ range $index, $element := first 3 (where .Site.Pages "Type" "blogpost") }}
+          {{ range first 3 .Site.Taxonomies.tags.featured }}
         <div style="background-color: white">
           <a href="{{ .RelPermalink }}"><img src="{{ .Params.Thumbnail }}" alt=""></a>
           <div style="padding: 14px;">
