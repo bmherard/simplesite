@@ -2,19 +2,36 @@
     {
         "title": "Don't Make Me Think",
         "author": "Steve Krug",
-        "image": "/images/test-image.jpg",
-        "url": "https://ibm.com"
+        "image": "/images/Dont-Make-Me-Think-by-Steve-Krug.jpg",
+        "url": "https://read.amazon.com/kp/embed?asin=B00HJUBRPG&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_7F9Q0HF1ACAV01B6N3E0",
+        "description": "Web designers and developers alike have rely on, usability guru, Steve Krug’s guide to help them understand the principles of intuitive navigation and information design."
+    },
+    {
+        "title": "The User Experience Team of One",
+        "author": "Leah Buley",
+        "image": "/images/The-User-Experience-Team-of-One-by-Leah-Buley.jpg",
+        "url": "https://read.amazon.com/kp/embed?asin=B00DUITE5Q&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_SSQWXC78H25BKGHDDMYJ",
+        "description": "Whether you want to cross over into user experience or you're a seasoned practitioner trying to move your organization forward, this book gives you tools and insight for doing more with less."
+    },
+    {
+        "title": "100 Things Every Designer Needs to Know About People",
+        "author": "Susan Weinschenk",
+        "image": "/images/100-Things-Every-Designer-Needs-to-Know-About-People-by-Susan-Weinschenk.jpg",
+        "url": "https://read.amazon.com/kp/embed?asin=B08F5KXJRC&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_NN6BQRJ884MM4ES9BGQQ",
+        "description": "With this book you’ll design more intuitive and engaging apps, software, websites and products that match the way people think, decide and behave."
     },
     {
         "title": "Start With Why",
         "author": "Simon Sinek",
-        "image": "/images/test-image.jpg",
-        "url": "https://ibm.com"
+        "image": "/images/Start-With-Why-by-Simon-Sinek.jpg",
+        "url": "https://read.amazon.com/kp/embed?asin=B002Q6XUE4&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_NA0THT1TFMF6J63R0ETR",
+        "description": "Start With Why shows that the leaders who've had the greatest influence in the world all think, act, and communicate the same way – and it's the opposite of what everyone else does."
     },
     {
-        "title": "Crush It!",
-        "author": "Gary V.",
-        "image": "/images/test-image.jpg",
-        "url": "https://ibm.com"
+        "title": "Jab, Jab, Jab, Right Hook",
+        "author": "Gary Vaynerchuk",
+        "image": "/images/Jab-Jab-Jab-Right-Hook-by-Gary-Vaynerchuk.jpg",
+        "url": "https://read.amazon.com/kp/embed?asin=B00BATNNZY&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_MQPF3YXAXHM1ERC5CQJ1",
+        "description": "A mash-up of Gary Vaynerchuk's best elements of Crush It! and The Thank You Economy with a fresh spin, this book is a blueprint to social media marketing strategies that really work."
     }
 ]

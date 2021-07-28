@@ -2,13 +2,18 @@
 <section class="padding-lg">
 	<article class="container">
 		<h1>{{ .Title }}</h1>
-		<div>
-			{{ .Content }}{{ range .Site.Data.books }}
-			<a href="{{ .url }}"><img style="height: 100px; width: auto" src="{{ .image }}" alt="{{ .title }}"></a>
-			<h3><a href="{{ .url }}">{{ .title }}</a></h3>
-			<p><em>by</em> {{ .author }}</p>
-			{{ end }}
-		</div>
+			{{ .Content }}
+			<h3>Books</h3>
+			<div class="grid-4">
+				{{ range .Site.Data.books }}
+				<div>
+					<a href="{{ .url }}"><img style="height: 100px; width: auto" src="{{ .image }}" alt="{{ .title }}"></a>
+					<p><a href="{{ .url }}"><strong>{{ .title }}</strong></a><br />
+					<em>by</em> {{ .author }}</p>
+					<p>{{ .description }}</p>
+				</div>
+				{{ end }}
+			</div>
 	</article>
 </section>
 {{ partial "footer.html" . }}
