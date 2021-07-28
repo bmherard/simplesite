@@ -4,6 +4,17 @@
         "author": "Steve Krug",
         "image": "/images/test-image.jpg",
         "url": "https://ibm.com"
+    },
+    {
+        "title": "Start With Why",
+        "author": "Simon Sinek",
+        "image": "/images/test-image.jpg",
+        "url": "https://ibm.com"
+    },
+    {
+        "title": "Crush It!",
+        "author": "Gary V.",
+        "image": "/images/test-image.jpg",
+        "url": "https://ibm.com"
     }
-
 ]
