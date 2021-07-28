@@ -1,5 +1,6 @@
 ---
 title: "First Post"
+type: "blogpost"
 date: 2020-08-08T17:27:59+07:00
 description: "My Sample Description"
 image: "https://source.unsplash.com/800x300/weekly?water"

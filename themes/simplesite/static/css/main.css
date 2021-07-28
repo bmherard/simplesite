@@ -262,7 +262,7 @@ body {
 }
 
 .padding-lg {
-  padding: 50px 20px 70px;
+  padding: 50px 20px 50px;
 }
 
 .grid-3, .grid-4 {
@@ -286,4 +286,5 @@ body {
 footer {
   background-color: darkslategray;
   padding: 30px 20px;
+  font-size: 14px;
 }

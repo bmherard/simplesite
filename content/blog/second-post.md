@@ -1,5 +1,6 @@
 ---
 title: "Second Post"
+type: "blogpost"
 date: 2020-09-03T18:43:36+07:00
 image: "https://source.unsplash.com/800x300/weekly?computer"
 thumbnail: "https://source.unsplash.com/400x200/weekly?computer"
