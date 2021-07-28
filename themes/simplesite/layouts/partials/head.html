@@ -7,7 +7,7 @@
     <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
     <meta name="description" content="{{ .Description }}">
     {{ partial "social-meta.html" . }}
-    <link rel="stylesheet" href="/css/main.css?004">
+    <link rel="stylesheet" href={{ "/css/main.css?005" | relURL }}>
     {{ with .OutputFormats.Get "rss" -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end }}
