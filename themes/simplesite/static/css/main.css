@@ -16,10 +16,11 @@ img {
 
 header {
     height: 50px;
-    width: 100%;
+    width: 100vw;
     background-color: darkslategray;
     position: relative;
     padding: 0 20px;
+    z-index: 100;
   }
   
   .nav {
@@ -81,7 +82,7 @@ header {
   }
   
   .nav-links > ul li:hover{
-        color: slategray;
+    color: slategray;
     }
   
   #nav-check {
@@ -104,7 +105,7 @@ header {
     .nav-btn {
       display: inline-block;
       position: absolute;
-      right: 0px;
+      right: 20px;
       top: 0px;
     }
   
@@ -248,6 +249,7 @@ header {
   ul.pagination li.page-item.active{
     background-color: #333;
   }
+
 /* TYPOGRAPHY */
 
 body {
@@ -263,10 +265,12 @@ h1, h2, h3, h4 {
 
 h1 {
   font-size: 2.0em;
+  text-align: center;
 }
 
 h2 {
   font-size: 1.75em;
+  text-align: center;
 }
 
 h3 {
