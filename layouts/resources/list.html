@@ -1,0 +1,14 @@
+{{ partial "head.html" . }}
+<section class="padding-lg">
+	<article class="container">
+		<h1>{{ .Title }}</h1>
+		<div>
+			{{ .Content }}{{ range .Site.Data.books }}
+			<a href="{{ .url }}"><img style="height: 100px; width: auto" src="{{ .image }}" alt="{{ .title }}"></a>
+			<h3><a href="{{ .url }}">{{ .title }}</a></h3>
+			<p><em>by</em> {{ .author }}</p>
+			{{ end }}
+		</div>
+	</article>
+</section>
+{{ partial "footer.html" . }}
