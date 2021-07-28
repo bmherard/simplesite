@@ -338,21 +338,12 @@ body {
 #myBtn {
   display: none;
   position: fixed;
-  bottom: 20px;
+  bottom: 28px;
   right: 20px;
   z-index: 99;
-  font-size: 20px;
-  border: none;
-  outline: none;
-  background-color: rgba(47, 79, 79, 0.5);
-  color: white;
+  width: 24px;
+  height: 24px;
   cursor: pointer;
-  padding: 8px;
-  border-radius: 3px;
-}
-
-#myBtn:hover {
-  background-color: darkslategray;
 }
 
 footer {
