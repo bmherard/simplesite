@@ -9,7 +9,7 @@ tags: [
     "featured",
 ]
 categories: [
-    "c-test1",
+    "test",
 ]
 ---
 

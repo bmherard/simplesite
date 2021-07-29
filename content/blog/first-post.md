@@ -9,7 +9,7 @@ tags: [
     "featured",
 ]
 categories: [
-    "#",
+    "test",
 ]
 ---
 
