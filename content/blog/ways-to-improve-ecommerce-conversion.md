@@ -1,5 +1,5 @@
 ---
-title: "First Post"
+title: "Ways to improve e-commerce conversion"
 author: "Brian Herard"
 date: 2021-04-08T17:27:59+07:00
 description: "Baseline the procedure and samepage your department open door policy, so sacred cow what about scaling..."
