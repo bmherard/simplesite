@@ -1,18 +1,26 @@
 ---
-title: "Forth Post"
-date: 2020-11-06T18:43:36+07:00
-image: "https://source.unsplash.com/800x300/weekly?nature"
-thumbnail: "https://source.unsplash.com/400x200/weekly?nature"
+title: "Why Use A Static Site Generator?"
+author: "Brian Herard"
+date: 2021-05-06T18:43:36+07:00
+description: "Some of the top reasons for using static site generators are improved website performance, security and ease of use..."
+image: "https://source.unsplash.com/7okkFhxrxNw/1000x300"
+thumbnail: "https://source.unsplash.com/7okkFhxrxNw/500x250"
 tags: [
     "featured",
 ]
 categories: [
-    "c-test1",
+    "#",
 ]
 ---
 
-Upstream selling ultimate measure of success in an ideal world and we need more paper or pig in a python, and window of opportunity.<!--more--> Moving the goalposts lift and shift nor get six alpha pups in here for a focus group, nor win-win slow-walk our commitment so game-plan. I don't want to drain the whole swamp, i just want to shoot some alligators.  
+### Performance, Security and Simplicity
 
-Per my previous email. First-order optimal strategies baseline reinvent the wheel ensure to follow requirements when developing solutions. Mumbo jumbo. Productize product management breakout fastworks, translating our vision of having a market leading platfrom and 360 degree content marketing pool. Tiger team due diligence keep it lean define the underlying principles that drive decisions and strategy for your design language quantity. What the future-proof.  
+Some of the top reasons for using static site generators (SSGs) are improved website performance, security and ease of use. Static sites display pages to visitors almost instantaneously. Static sites don't run code as a page loads and tend to more secure than dynamic site generators (DGSs). And, building a website with a static site generator is fairly straight forward, once you learn the particulars of the SSG.  
 
-We need to harvest synergy effects radical candor or we need a recap by eod, cob or whatever comes first pro-sumer software. What's the status on the deliverables for eow? clear blue water. Lean into that problem . I just wanted to give you a heads-up pixel pushing, nor red flag. Punter organic growth, so push back or circle back around.
+It's important to note that the term “static” means the SSG builds a page once, in contrast to a DSG that builds pages as they are requested by the viewer. The net results are pages display identically without anyone being the wiser. "Static" doesn't mean the site or pages never change or doesn't have dynamic features.  
+
+The popularity of the Jamstack (JavaScript, APIs and Markup) over the last several years has help boost the desire to use SSGs. To complement this desire there are a growing number of open source static site generators available to choose from including Gatsby, Jekyll, Hugo, 11ty and Pelican. At their core, these solutions compile the digital assets you need for deploying your site to the hosting platform of your choice.  
+
+### So why not choose a CMS?
+
+So the elephant in the room is WordPress. Why not just use the platform that powers more than 40% of the Web? ...

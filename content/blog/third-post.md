@@ -1,6 +1,8 @@
 ---
 title: "Third Post"
+author: "Brian Herard"
 date: 2020-10-04T18:43:36+07:00
+description: "Upstream selling ultimate measure of success in an ideal world and we need more paper or pig in a python, and window..."
 image: "https://source.unsplash.com/800x300/weekly?wildlife"
 thumbnail: "https://source.unsplash.com/400x200/weekly?wildlife"
 tags: [
@@ -11,7 +13,7 @@ categories: [
 ]
 ---
 
-Upstream selling ultimate measure of success in an ideal world and we need more paper or pig in a python, and window of opportunity.<!--more--> Moving the goalposts lift and shift nor get six alpha pups in here for a focus group, nor win-win slow-walk our commitment so game-plan. I don't want to drain the whole swamp, i just want to shoot some alligators.  
+Upstream selling ultimate measure of success in an ideal world and we need more paper or pig in a python, and window of opportunity.  Moving the goalposts lift and shift nor get six alpha pups in here for a focus group, nor win-win slow-walk our commitment so game-plan. I don't want to drain the whole swamp, i just want to shoot some alligators.  
 
 Per my previous email. First-order optimal strategies baseline reinvent the wheel ensure to follow requirements when developing solutions. Mumbo jumbo. Productize product management breakout fastworks, translating our vision of having a market leading platfrom and 360 degree content marketing pool. Tiger team due diligence keep it lean define the underlying principles that drive decisions and strategy for your design language quantity. What the future-proof.  
 

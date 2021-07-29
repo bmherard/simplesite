@@ -9,30 +9,30 @@
 </div>
 <!-- ABOUT -->
 <section class="padding-lg" style="background-color: white;">
-    <article class="container">
-        {{ .Content }}
-    </article>
+  <article class="container">
+    {{ .Content }}
+  </article>
 </section>
 <!-- RECENT BLOG POSTS -->
 <section class="padding-lg">
-    <article class="container">
-        <h2>Recent Blog Posts</h2>
-        <div class="grid-3">
-          {{ range first 3 .Site.Taxonomies.tags.featured }}
-        <div style="background-color: white">
-          <a href="{{ .RelPermalink }}"><img src="{{ .Params.Thumbnail }}" alt=""></a>
-          <div style="padding: 14px;">
+  <article class="container">
+    <h2>Recent Blog Posts</h2>
+    <div class="grid-3">
+      {{ range first 3 .Site.Taxonomies.tags.featured }}
+      <div style="background-color: white">
+        <a href="{{ .RelPermalink }}"><img src="{{ .Params.Thumbnail }}" alt=""></a>
+        <div style="padding: 14px;">
           <h3>
             <a href="{{ .RelPermalink }}">{{ .Title }}</a>
           </h3>
           <p datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
             {{ .Date.Format "January 2, 2006" }}
           </p>
-          {{ .Summary }}
-          <a href="{{ .RelPermalink }}">Read More...</a>
+          <p>{{ .Description }}</p>
         </div>
       </div>
       {{ end }}
-    </article>
-  </section>
-  {{ partial "footer.html" . }}
+    </div>
+  </article>
+</section>
+{{ partial "footer.html" . }}
