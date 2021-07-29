@@ -1,7 +1,7 @@
 ---
 title: "First Post"
 author: "Brian Herard"
-date: 2020-08-08T17:27:59+07:00
+date: 2021-04-08T17:27:59+07:00
 description: "Baseline the procedure and samepage your department open door policy, so sacred cow what about scaling..."
 image: "https://source.unsplash.com/800x300/weekly?tech"
 thumbnail: "https://source.unsplash.com/400x200/weekly?tech"
