@@ -1,10 +1,10 @@
 ---
-title: "Third Post"
+title: "Is the Jamstack in your e-commerce site's future?"
 author: "Brian Herard"
-date: 2020-10-04T18:43:36+07:00
+date: 2021-06-04T18:43:36+07:00
 description: "Upstream selling ultimate measure of success in an ideal world and we need more paper or pig in a python, and window..."
-image: "https://source.unsplash.com/800x300/weekly?wildlife"
-thumbnail: "https://source.unsplash.com/400x200/weekly?wildlife"
+image: "https://source.unsplash.com/B6JINerWMz0/1000x300"
+thumbnail: "https://source.unsplash.com/B6JINerWMz0/500x250"
 tags: [
     "featured",
 ]
@@ -12,6 +12,8 @@ categories: [
     "test",
 ]
 ---
+
+https://www.practicalecommerce.com/is-jamstack-right-for-your-ecommerce-business
 
 Upstream selling ultimate measure of success in an ideal world and we need more paper or pig in a python, and window of opportunity.  Moving the goalposts lift and shift nor get six alpha pups in here for a focus group, nor win-win slow-walk our commitment so game-plan. I don't want to drain the whole swamp, i just want to shoot some alligators.  
 
