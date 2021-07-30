@@ -3,8 +3,8 @@ title: "Is the Jamstack in your e-commerce site's future?"
 author: "Brian Herard"
 date: 2021-06-04T18:43:36+07:00
 description: "With the Jamstack you can use a static site generator to produce a stunning e-commerce experience..."
-image: "https://source.unsplash.com/B6JINerWMz0/1000x300"
-thumbnail: "https://source.unsplash.com/B6JINerWMz0/500x250"
+image: "https://source.unsplash.com/1i1zPbkQJNg/1000x300"
+thumbnail: "https://source.unsplash.com/1i1zPbkQJNg/500x250"
 tags: [
     "featured",
 ]

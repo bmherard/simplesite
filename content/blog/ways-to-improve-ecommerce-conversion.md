@@ -2,9 +2,9 @@
 title: "Ways to improve e-commerce conversion"
 author: "Brian Herard"
 date: 2021-04-08T17:27:59+07:00
-description: "Baseline the procedure and samepage your department open door policy, so sacred cow what about scaling..."
-image: "https://source.unsplash.com/800x300/weekly?tech"
-thumbnail: "https://source.unsplash.com/400x200/weekly?tech"
+description: "Conversion rate optimization is key to running a successful online business. With a bit of site and user analytics..."
+image: "https://source.unsplash.com/Q59HmzK38eQ/1000x300"
+thumbnail: "https://source.unsplash.com/Q59HmzK38eQ/500x250"
 tags: [
     "featured",
 ]
@@ -13,14 +13,22 @@ categories: [
 ]
 ---
 
-Baseline the procedure and samepage your department open door policy, so sacred cow what about scaling components to a global audience? Can you put it on my calendar? we've got kpis for that, we have to leverage up the messaging for cc me on that. Roll back strategy even dead cats bounce we have to leverage up the messaging let's unpack that later show pony, so you better eat a reality sandwich before you walk back in that boardroom, and game-plan. Pass the mayo, appeal to the client, sue the vice president. 
+### What is Conversion Rate Optimization?
 
-<img src="/images/test-image.jpg" alt="alt text" title="title">   
-<a href="https://ibm.com"><img src="/images/test-image.jpg" style="width: 50%;" alt="alt text" title="title"></a>
+Conversion rate optimization (CRO) is the process of improving the customer experience to drive specific Key Performance Indictors (KPIs). Conversion rate optimization can be done on any customer touch point, including landing pages, category pages, shopping cart and checkout. Even optimizing post sale communications can improve conversion with subsequent visits to your shop.
 
-Do i have consent to record this meeting prairie dogging cadence blue money, and i don't want to drain the whole swamp, i just want to shoot some alligators but due diligence, so can we parallel path. Let's pressure test this obviously data-point. Cross sabers scope creep yet slow-walk our commitment a loss a day will keep you focus for ping me are there any leftovers in the kitchen? up the flagpole bazooka that run it past the boss jump right in and banzai attack will they won't they its all greek to me unless they bother until the end of time maybe vis a vis too many cooks over the line.
+### A few ways
 
-My favorite search engine is [Duck Duck Go](https://duckduckgo.com).  
-My favorite static site generator is <a href="https://gohugo.io" target="_blank">Hugo</a>.
+    - Make it mobile responsive
+    - Improve site speed and page load time
+    - Use impressive product images and videos
+    - Use CTAs moderately
+    - Add filters to product category pages
+    - Offer flexible discounting
+    - Capture abandoned carts
+    - Show customer reviews
+    - Create a seamless checkout experience
+    - Offer alternative payment methods
+<br>
 
-This is a no-brainer we need to aspirationalise our offerings 360 degree content marketing pool.
+***More coming soon...***

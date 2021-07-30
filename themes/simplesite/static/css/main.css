@@ -182,7 +182,7 @@ header {
     position: relative;
     background-size: cover;
     background-position: 50% 50%;
-    background-image: url("https://source.unsplash.com/Bd7gNnWJBkU/1600x400");
+    background-image: url("https://source.unsplash.com/cckf4TsHAuw/1600x400");
   }
   
   .overlay {
@@ -191,7 +191,7 @@ header {
     width: 100%;
     top: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.45);
     display: flex;
     align-items: center;
     justify-content: center;
