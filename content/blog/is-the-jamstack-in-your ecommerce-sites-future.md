@@ -2,7 +2,7 @@
 title: "Is the Jamstack in your e-commerce site's future?"
 author: "Brian Herard"
 date: 2021-06-04T18:43:36+07:00
-description: "Upstream selling ultimate measure of success in an ideal world and we need more paper or pig in a python, and window..."
+description: "With the Jamstack you can use a static site generator to produce a stunning e-commerce experience..."
 image: "https://source.unsplash.com/B6JINerWMz0/1000x300"
 thumbnail: "https://source.unsplash.com/B6JINerWMz0/500x250"
 tags: [
@@ -13,10 +13,12 @@ categories: [
 ]
 ---
 
-https://www.practicalecommerce.com/is-jamstack-right-for-your-ecommerce-business
+### First of all, what is the Jamstack?
 
-Upstream selling ultimate measure of success in an ideal world and we need more paper or pig in a python, and window of opportunity.  Moving the goalposts lift and shift nor get six alpha pups in here for a focus group, nor win-win slow-walk our commitment so game-plan. I don't want to drain the whole swamp, i just want to shoot some alligators.  
+To be clear, it has nothing to do with jam, fruit preserves, or stacks of a classic PB'n J sandwich. In simple terms, the Jamstack originally referred to the use of JavaScript (JS), Application Programming Interfaces (APIs), and Markup (HTML) that would pre-render web pages with the help of a static site generator. More recently the Jamstack environment has expanded to include other technologies, while still encompassing the static site methodology.
 
-Per my previous email. First-order optimal strategies baseline reinvent the wheel ensure to follow requirements when developing solutions. Mumbo jumbo. Productize product management breakout fastworks, translating our vision of having a market leading platfrom and 360 degree content marketing pool. Tiger team due diligence keep it lean define the underlying principles that drive decisions and strategy for your design language quantity. What the future-proof.  
+### Traditional E-comm vs. Jamstack E-comm
 
-We need to harvest synergy effects radical candor or we need a recap by eod, cob or whatever comes first pro-sumer software. What's the status on the deliverables for eow? clear blue water. Lean into that problem . I just wanted to give you a heads-up pixel pushing, nor red flag. Punter organic growth, so push back or circle back around.
+Typically, the traditional e-commerce platform and it's dependencies need to live in the same household. If you think about how solutions like WordPress, Joomla, Rails, or in the case of e-commerce, Magento, the plugins or modules that made to solution work had to be inside the house and be compatible with the platform. With the Jamstack, the APIs that power those extension can now live on their own and be used to drive a very dynamic static e-commerce website.
+
+With the inclusion of JS, APIs from AuthO, Stripe and the like, plus markup, you can use a static site generator to produce a stunning e-commerce experience. This is not a Shopify replacement. For small, independent, shop owner's, the Jamstack may not be orderly enough or evolved to the point that an e-com store can be spun up easily within an hour. But, for those who are technically savvy or have the budget to invest in development time, the Jamstack is a very viable solution. Many times the pay offs of a static Jamstack based site are faster load times, more reliability, improved security, and in the long run, less expensive.

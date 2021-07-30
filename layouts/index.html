@@ -2,8 +2,8 @@
 <!-- HERO -->
 <div class="hero-image">
   <div class="overlay">
-    <h1>Hero Image with Overlay</h1>
-    <p>Full width background using only HTML &amp; CSS</p>
+    <h1 style="font-weight: 300;">Development, Design, &amp;<br />Digital Marketing</h1>
+    <p>Helping Businesses Deliver Real Impact To Their Customers</p>
     <a href="#"><button>Learn More &raquo;</button></a>
   </div>
 </div>
@@ -16,7 +16,8 @@
 <!-- RECENT BLOG POSTS -->
 <section class="padding-lg">
   <article class="container">
-    <h2>Recent Blog Posts</h2>
+    <h2>Featured Blog Posts</h2>
+    <p><a href={{ "/blog/" | relURL }}>View More &raquo;</a></p>
     <div class="grid-3">
       {{ range first 3 .Site.Taxonomies.tags.featured }}
       <div style="background-color: white">
@@ -25,9 +26,6 @@
           <h3>
             <a href="{{ .RelPermalink }}">{{ .Title }}</a>
           </h3>
-          <p datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
-            {{ .Date.Format "January 2, 2006" }}
-          </p>
           <p>{{ .Description }}</p>
         </div>
       </div>

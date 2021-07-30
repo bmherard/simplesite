@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
 
 /* RESET */
 *, *::before, *::after {
@@ -17,7 +18,7 @@ img {
 header {
     height: 50px;
     width: 100vw;
-    background-color: darkslategray;
+    background-color: #343a40;
     position: relative;
     padding: 0 20px;
     z-index: 100;
@@ -40,14 +41,14 @@ header {
     display: inline-block;
     font-size: 22px;
     color: #fff;
-    font-weight: 600;
-    font-family: 'Fira Sans', Arial, sans-serif;
+    font-weight: 500;
+    font-family: 'Roboto Slab', Arial, sans-serif;
     padding: 10px 0;
   }
   
   .nav-title a {
     text-decoration: none;
-    color: #fff;
+    color: #BECC00;
   }
   
   .nav-btn {
@@ -78,7 +79,7 @@ header {
   
   .nav-links>ul li {
     display: inline-block;
-    background-color: darkslategray;
+    background-color: #343a40;
   }
   
   .nav-links > ul li:hover{
@@ -117,7 +118,7 @@ header {
     }
   
     .nav-btn>label:hover, .nav #nav-check:checked~.nav-btn>label {
-      background-color: darkslategray;
+      background-color: #343a40;
     }
   
     .nav-btn>label>span {
@@ -131,7 +132,7 @@ header {
       position: absolute;
       display: block;
       width: 100%;
-      background-color: darkslategray;
+      background-color: #343a40;
       height: 0px;
       transition: all 0.3s ease-in;
       overflow-y: hidden;
@@ -150,7 +151,7 @@ header {
       display: block;
       margin-bottom: 20px;
       padding: 0;
-      background-color: darkslategray;
+      background-color: #343a40;
     }
   
     .nav-links>ul li a {
@@ -258,9 +259,10 @@ body {
 }
 
 h1, h2, h3, h4 {
+  font-family: 'Roboto Slab', Arial, sans-serif;
   line-height: 1.1;
   margin-bottom: 0.75em;
-  color: darkslategray;
+  color: #343a40;
 }
 
 h1 {
@@ -355,7 +357,7 @@ body {
 }
 
 footer {
-  background-color: darkslategray;
+  background-color: #343a40;
   padding: 30px 20px;
   font-size: 14px;
 }

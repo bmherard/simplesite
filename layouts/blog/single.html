@@ -3,7 +3,7 @@
   <article class="container">
     <img src="{{ .Params.Image }}" alt="">
     <h1 class="post-headline">{{ .Title }}</h1>
-    <p class="post-byline">Written by <em>{{ .Params.Author }}</em> on {{ .Date.Format "January 2, 2006" }}</p>
+    <p class="post-byline">Boiled down by <em>{{ .Params.Author }}</em> on {{ .Date.Format "January 2, 2006" }}</p>
     {{ .Content }}
   </article>
 </section>

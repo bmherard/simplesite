@@ -1,6 +1,6 @@
 ---
 title: "Home"
-description: "Brian's website"
+description: "Frontend Web Development, Design, & Digital Marketing"
 ---
 
 # Runway Window of Opportunity

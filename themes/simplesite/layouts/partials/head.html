@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
+    <!-- Meta Tags -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
     <meta name="description" content="{{ .Description }}">
     {{ partial "social-meta.html" . }}
+    <!-- CSS -->
     <link rel="stylesheet" href={{ "/css/main.css?006" | relURL }}>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href={{ "/apple-touch-icon.png" | relURL }}>
+    <link rel="icon" type="image/png" sizes="32x32" href={{ "/images/favicon-32x32.png" | relURL }}>
+    <link rel="icon" type="image/png" sizes="16x16" href={{ "/images/favicon-16x16.png" | relURL }}>
+    <!-- RSS -->
     {{ with .OutputFormats.Get "rss" -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end }}
