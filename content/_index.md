@@ -5,10 +5,10 @@ description: "Frontend Web Development, Design, & Digital Marketing"
 
 ABOUT ME
 
-# A Passion for Developing & Designing Great Experiences
+# Driven By A Passion For Developing & Designing Great Experiences
 
-#### My Career Passion
+For more than 10 years I have been developing, designing, and marketing web sites with a big focus on on e-commerce. Whether it's a leadership role or a work assignment, I approach my job with a critical eye, creative thinking, flexibility and a touch of humor.
 
-My specialties include implementing User Experience, Interaction and E-commerce Design, leading Experience Designers and managing multiple digital brands.
+I'm a team player but will challenge the status quo if it may lead to improvements. Standing Still isn't acceptable so taking risks is helps me learn and grow. I'm a right and left brained thinker overlapping creative designs with functional development. I enjoy blending analytics, functionality and aesthetics for ultimate usability.
 
-I approach leadership roles and work assignments with a critical eye, creative thinking, flexibility and a touch of humor. I'm a team player who also challenges the status quo. Standing still isn't acceptable. Taking risks helps me learn and grow. I'm a right and left brained marketer who mixes numbers, functionality and aesthetics for ultimate usability.
+I feel very passionately that every touch point, not just digital ones, should be met with delight.
