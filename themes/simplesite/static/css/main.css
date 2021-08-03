@@ -323,6 +323,10 @@ body {
   gap: 30px;
 }
 
+.grid-2 {
+  grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));
+}
+
 .grid-3 {
     grid-template-columns:repeat(auto-fill, minmax(250px, 1fr));
 }
