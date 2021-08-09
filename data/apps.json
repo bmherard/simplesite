@@ -1,0 +1,16 @@
+[
+    {
+        "title": "Visual Studio Code",
+        "author": "Microsoft",
+        "image": "/images/Dont-Make-Me-Think-by-Steve-Krug.jpg",
+        "url": "https://read.amazon.com/kp/embed?asin=B00HJUBRPG&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_7F9Q0HF1ACAV01B6N3E0",
+        "description": "Web designers and developers alike have rely on, usability guru, Steve Krug’s guide to help them understand the principles of intuitive navigation and information design."
+    },
+    {
+        "title": "Jab, Jab, Jab, Right Hook",
+        "author": "Gary Vaynerchuk",
+        "image": "/images/Jab-Jab-Jab-Right-Hook-by-Gary-Vaynerchuk.jpg",
+        "url": "https://read.amazon.com/kp/embed?asin=B00BATNNZY&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_MQPF3YXAXHM1ERC5CQJ1",
+        "description": "A mash-up of Gary Vaynerchuk's best elements of Crush It! and The Thank You Economy with a fresh spin, this book is a blueprint to social media marketing strategies that really work."
+    }
+]
