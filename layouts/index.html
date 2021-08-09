@@ -1,25 +1,26 @@
 {{ partial "head.html" . }}
 <!-- HERO -->
-<section class="padding-lg">
+<section class="padding-lg hero-gradient">
   <article class="container">
-    <div style="display: flex;">
+    <div style="display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px; margin-bottom:40px; align-items: center">
       <div>
-        <h1>Web Developer, Designer, &amp; Digital Marketer</h1>
-        <p>Helping Businesses Deliver Real Impact To Their Customers</p>
+        <h1 style="font-size: 2.75em; color:purple;">Web Developer, Designer &amp; Digital Marketer</h1>
+        <p style="font-size: 1.5em;">Helping Businesses Deliver Real Impact To Their Customers</p>
         <!--<a href="#"><button>Learn More &raquo;</button></a>--> 
       </div>
-      <div><img src={{ "/images/laptop-floating.png" | relURL }} alt=""></div>
-  
+      <img src={{ "/images/laptop-floating.png" | relURL }} alt="">
     </div>
   </article>
 </section>
-<div class="hero-image">
+<!--<div class="hero-image">
   <div class="overlay">
     <h1>Web Developer, Designer,<br />&amp; Digital Marketer</h1>
     <p>Helping Businesses Deliver Real Impact To Their Customers</p>
-    <!--<a href="#"><button>Learn More &raquo;</button></a>-->
+    <a href="#"><button>Learn More &raquo;</button></a>
   </div>
-</div>
+</div>-->
 <!-- ABOUT -->
 <section class="padding-lg" style="background-color: white;">
   <article class="container">
@@ -33,7 +34,7 @@
     <p><a href={{ "/blog/" | relURL }}>View More &raquo;</a></p>
     <div class="grid-3">
       {{ range first 3 .Site.Taxonomies.tags.featured }}
-      <div style="background-color: white">
+      <div class="hero-gradient">
         <a href="{{ .RelPermalink }}"><img src="{{ .Params.Thumbnail }}" alt=""></a>
         <div style="padding: 14px;">
           <h3>
