@@ -18,7 +18,7 @@ img {
 header {
     height: 50px;
     width: 100vw;
-    background-color: #320082;
+    background-color: #23005b;
     position: relative;
     padding: 0 20px;
     z-index: 100;
@@ -48,7 +48,7 @@ header {
   
   .nav-title a {
     text-decoration: none;
-    color: #b7db03;
+    color: #BEDE1C;
   }
   
   .nav-btn {
@@ -79,7 +79,7 @@ header {
   
   .nav-links>ul li {
     display: inline-block;
-    background-color: #320082;
+    background-color: #23005b;
   }
   
   .nav-links > ul li:hover{
@@ -118,7 +118,7 @@ header {
     }
   
     .nav-btn>label:hover, .nav #nav-check:checked~.nav-btn>label {
-      background-color: #320082;
+      background-color: #23005b;
     }
   
     .nav-btn>label>span {
@@ -132,7 +132,7 @@ header {
       position: absolute;
       display: block;
       width: 100%;
-      background-color: #320082;
+      background-color: #23005b;
       height: 0px;
       transition: all 0.3s ease-in;
       overflow-y: hidden;
@@ -386,7 +386,7 @@ body {
 }
 
 footer {
-  background-color: #320082;
+  background-color: #23005b;
   padding: 30px 20px;
   font-size: 14px;
 }

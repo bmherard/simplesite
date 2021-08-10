@@ -1,6 +1,6 @@
 {{ partial "head.html" . }}
 <!-- HERO -->
-<section class="padding-lg hero-gradient">
+<section class="padding-lg" style="background-color: #f9f7fb">
   <article class="container">
     <div style="display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -8,6 +8,7 @@
       <div>
         <h1 style="font-size: 2.75em; color: #320082;">Web Developer, Designer &amp; Digital Marketer</h1>
         <p style="font-size: 1.5em;">Helping Businesses Deliver Real Impact To Their Customers</p>
+        <a href="#about"><i class="fas fa-chevron-down fa-2x animate__animated animate__heartBeat animate__infinite animate__slower" aria-hidden="true" style="display: inline-block; text-align: center; width: 100%; color: #320082;"></i></a>
         <!--<a href="#"><button>Learn More &raquo;</button></a>--> 
       </div>
       <img src={{ "/images/laptop-floating.png" | relURL }} alt="">
@@ -22,7 +23,7 @@
   </div>
 </div>-->
 <!-- ABOUT -->
-<section class="padding-lg" style="background-color: white;">
+<section class="padding-lg" style="background-color: white;" id="about">
   <article class="container">
     {{ .Content }}
   </article>
@@ -34,7 +35,7 @@
     <p><a href={{ "/blog/" | relURL }}>View More &raquo;</a></p>
     <div class="grid-3">
       {{ range first 3 .Site.Taxonomies.tags.featured }}
-      <div class="hero-gradient">
+      <div style="background-color: #f9f7fb">
         <a href="{{ .RelPermalink }}"><img src="{{ .Params.Thumbnail }}" alt=""></a>
         <div style="padding: 14px;">
           <h3>

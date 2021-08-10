@@ -14,6 +14,17 @@
 				</div>
 				{{ end }}
 			</div>
+			<hr><br />
+			<h3>Web Development &amp; Design Tools</h3>
+			<div class="grid-4">
+				{{ range .Site.Data.apps }}
+				<div>
+					<a href="{{ .url }}"><img style="height: 100px; width: auto" src="{{ .image }}" alt="{{ .title }}"></a>
+					<p><a href="{{ .url }}"><strong>{{ .title }}</strong></a><br />
+					<p>{{ .description }}</p>
+				</div>
+				{{ end }}
+			</div>
 	</article>
 </section>
 {{ partial "footer.html" . }}
