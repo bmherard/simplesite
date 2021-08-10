@@ -18,7 +18,7 @@ img {
 header {
     height: 50px;
     width: 100vw;
-    background-color: #343a40;
+    background-color: #320082;
     position: relative;
     padding: 0 20px;
     z-index: 100;
@@ -79,7 +79,7 @@ header {
   
   .nav-links>ul li {
     display: inline-block;
-    background-color: #343a40;
+    background-color: #320082;
   }
   
   .nav-links > ul li:hover{
@@ -118,7 +118,7 @@ header {
     }
   
     .nav-btn>label:hover, .nav #nav-check:checked~.nav-btn>label {
-      background-color: #343a40;
+      background-color: #320082;
     }
   
     .nav-btn>label>span {
@@ -132,7 +132,7 @@ header {
       position: absolute;
       display: block;
       width: 100%;
-      background-color: #343a40;
+      background-color: #320082;
       height: 0px;
       transition: all 0.3s ease-in;
       overflow-y: hidden;
@@ -151,7 +151,7 @@ header {
       display: block;
       margin-bottom: 20px;
       padding: 0;
-      background-color: #343a40;
+      background-color: #320082;
     }
   
     .nav-links>ul li a {
@@ -224,7 +224,7 @@ header {
   }
 
   .hero-gradient {
-    background: linear-gradient(45deg, #FFFFFF, #F8F8F8, #F5F5F5, #E8E8E8, #F8F8F8);
+    background: linear-gradient(45deg, #f0f7cc, #ffffff, #D6CCE6);
     background-size: 400% 400%;
     -webkit-animation:  gradient 15s ease infinite;
     -moz-animation:  gradient 15s ease infinite;
@@ -386,7 +386,7 @@ body {
 }
 
 footer {
-  background-color: #343a40;
+  background-color: #320082;
   padding: 30px 20px;
   font-size: 14px;
 }
