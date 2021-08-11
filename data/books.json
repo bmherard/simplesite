@@ -33,5 +33,19 @@
         "image": "/images/Jab-Jab-Jab-Right-Hook-by-Gary-Vaynerchuk.jpg",
         "url": "https://read.amazon.com/kp/embed?asin=B00BATNNZY&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_MQPF3YXAXHM1ERC5CQJ1",
         "description": "A mash-up of Gary Vaynerchuk's best elements of Crush It! and The Thank You Economy with a fresh spin, this book is a blueprint to social media marketing strategies that really work."
+    },
+    {
+        "title": "HTML and CSS",
+        "author": "John Duckett",
+        "image": "/images/HTML-and-CSS-by-Jon-Duckett.jpg",
+        "url": "https://www.amazon.com/dp/1118008189/ref=cm_sw_em_r_mt_dp_WRJ899XKF2TAPGQ0SXEN",
+        "description": "HTML and CSS: Design and Build Websites introduces website design in a way that makes it accessible to everyone. This educational book is one that you will enjoy picking up, reading, then referring back to."
+    },
+    {
+        "title": "JavaScript and JQuery",
+        "author": "John Duckett",
+        "image": "/images/JavaScript-and-JQuery-by-Jon-Duckett.jpg",
+        "url": "https://www.amazon.com/dp/1118531647/ref=cm_sw_em_r_mt_dp_62MJQTB9R9CCNWZQ70QT",
+        "description": "JavaScript and JQuery: Interactive Front-End Web Development will show you how to make your websites more interactive and your interfaces more interesting and intuitive."
     }
 ]

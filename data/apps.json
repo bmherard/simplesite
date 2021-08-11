@@ -34,5 +34,11 @@
         "image": "/images/google-analytics-icon.svg",
         "url": "https://developers.google.com/analytics/",
         "description": "Google Analytics helps businesses analyze customer data from website visits. It also helps increase efficient use of resources to improve product development and profits."
+    },
+    {
+        "title": "Ubuntu",
+        "image": "/images/ubuntu-icon.svg",
+        "url": "https://ubuntu.com",
+        "description": "Ubuntu is Linux for human beings. It's a free community developed operating system that is perfect for laptops, desktops and servers."
     }
 ]

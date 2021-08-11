@@ -7,14 +7,14 @@
 			<div class="grid-4">
 				{{ range .Site.Data.books }}
 				<div>
-					<a href="{{ .url }}"><img style="height: 100px; width: auto" src="{{ .image }}" alt="{{ .title }}"></a>
+					<a href="{{ .url }}" target="_blank"><img style="height: 100px; width: auto" src="{{ .image }}" alt="{{ .title }}"></a>
 					<p><a href="{{ .url }}"><strong>{{ .title }}</strong></a><br />
 					<em>by</em> {{ .author }}</p>
 					<p>{{ .description }}</p>
 				</div>
 				{{ end }}
 			</div>
-			<hr><br />
+			<hr style="border-top: 1px solid lightgrey; margin:40px 0"><br />
 			<h3>Web Development &amp; Design Tools</h3>
 			<div class="grid-4">
 				{{ range .Site.Data.apps }}
