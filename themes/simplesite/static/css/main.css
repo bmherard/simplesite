@@ -342,7 +342,7 @@ body {
   padding: 50px 20px 50px;
 }
 
-.grid-3, .grid-4 {
+.grid-2, .grid-3, .grid-4 {
   display: grid;
   gap: 30px;
 }
@@ -361,7 +361,8 @@ body {
 }
 @media (max-width:500px) {
   .grid-4 {
-    grid-template-columns: 1fr 1fr;
+    font-size: 16px;
+    gap: 20px;
   }
 }
 

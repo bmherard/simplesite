@@ -1,0 +1,16 @@
+{{ partial "head.html" . }}
+<section class="padding-lg">
+	<article class="container">
+		<h1>{{ .Title }}</h1>
+		<h3>Recent Work</h3>
+		<div class="grid-2">
+			{{ range .Site.Data.recentwork }}
+					<p>{{ .date }}<br />
+					<strong>{{ .title }}</strong><br />
+					{{ .company }}</p>
+					<p>{{ .description }}</p>
+				{{ end }}
+			</div>
+	</article>
+</section>
+{{ partial "footer.html" . }}
