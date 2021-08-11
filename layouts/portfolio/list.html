@@ -5,12 +5,13 @@
     {{ .Content }}{{ range.Data.Pages }}
     <div style="display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px; margin-bottom:40px">
+    gap: 20px; margin-bottom:40px; background-color: #f9f7fb">
       <img src="{{ .Params.Thumbnail }}" alt="">
-      <div>
+      <div style="padding: 10px 10px 10px 0;">
         <h3>
           <a href="{{ .RelPermalink }}">{{ .Title }}</a>
         </h3>
+        <p>{{ .Description }}</p>
       </div>
         </div>
     {{ end }}</article>
