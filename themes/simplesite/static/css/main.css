@@ -41,8 +41,8 @@ header {
     display: inline-block;
     font-size: 22px;
     color: #fff;
-    font-weight: 500;
-    font-family: 'Roboto Slab', Arial, sans-serif;
+    font-weight: 600;
+    font-family: 'Fira Sans', Arial, sans-serif;
     padding: 10px 0;
   }
   
@@ -284,7 +284,7 @@ body {
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Roboto Slab', Arial, sans-serif;
+  font-family: 'Fira Sans', Arial, sans-serif;
   line-height: 1.1;
   margin-bottom: 0.75em;
   color: #343a40;
