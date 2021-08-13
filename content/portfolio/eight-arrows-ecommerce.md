@@ -1,11 +1,10 @@
 ---
-title: "Farm-To-Home E-commerce"
+title: "Selling Fresh Organic Food Online"
 weight: 2
 date: 2021-01-03T17:27:59+05:00
-description: "Sample Description"
-image: "https://source.unsplash.com/800x300/weekly?sky"
-thumbnail: "https://source.unsplash.com/400x200/weekly?sky"
+description: "From a downloadable order form to a fully functional e-commerce website..."
+image: "/images/eight-arrows-website-cover-1000x650.jpg"
+thumbnail: "/images/eight-arrows-website-cover-1000x650.jpg"
 ---
 
-Client needed another thing.
-
+From a downloadable order form to a fully functional e-commerce website...

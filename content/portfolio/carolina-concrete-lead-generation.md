@@ -1,11 +1,10 @@
 ---
-title: "Carolina Concrete Lead Generation"
+title: "Contractor's Lead Generation Website"
 weight: 3
 date: 2021-01-03T17:27:59+05:00
-description: "Sample Description"
-image: "https://source.unsplash.com/800x300/weekly?land"
-thumbnail: "https://source.unsplash.com/400x200/weekly?land"
+description: "Revitalized a contractors website to be responsive."
+image: "/images/carolina-concrete-website-cover-1000x650.jpg"
+thumbnail: "/images/carolina-concrete-website-cover-1000x650.jpg"
 ---
 
-Client needed another thing.
-
+Revitalized a contractors website to be responsive.
