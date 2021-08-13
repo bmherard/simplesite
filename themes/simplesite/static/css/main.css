@@ -351,7 +351,7 @@ body {
 
 .grid-2, .grid-3, .grid-4 {
   display: grid;
-  gap: 30px;
+  gap: 20px;
 }
 
 .grid-2 {
@@ -419,4 +419,8 @@ footer {
   background-color: #23005b;
   padding: 30px 20px;
   font-size: 14px;
+}
+
+.content-bg {
+  background-color: #e9e5ee;
 }
