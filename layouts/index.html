@@ -35,7 +35,7 @@
     <p><a href={{ "/blog/" | relURL }}>View More &raquo;</a></p>
     <div class="grid-3">
       {{ range first 3 .Site.Taxonomies.tags.featured }}
-      <div class="content-bg">
+      <div class="secondary-bg">
         <a href="{{ .RelPermalink }}"><img src="{{ .Params.Thumbnail }}" alt=""></a>
         <div style="padding: 14px;">
           <h3>

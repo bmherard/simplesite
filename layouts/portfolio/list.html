@@ -4,7 +4,7 @@
     <h1>{{ .Title }}</h1>
     {{ .Content }}{{ range.Data.Pages }}
     <a href="{{ .RelPermalink }}" style="text-decoration: none;">
-      <div class="grid-2 content-bg"  style="margin-bottom:40px;">
+      <div class="grid-2 secondary-bg"  style="margin-bottom:40px;">
         <div>
           <img src="{{ .Params.Thumbnail }}" alt="{{ .Title }}">
         </div>
@@ -13,7 +13,7 @@
             {{ .Title }}
           </h3>
           <p>{{ .Description }}</p>
-          <p style="background-color: white; display: inline-block; padding: 10px 20px">Learn More &raquo;</p>
+          <p class="btn-white">Learn More &raquo;</p>
         </div>
       </div>
       {{ end }}

@@ -1,6 +1,6 @@
 ---
 title: "E-commerce Platform Upgrade"
-weight: 1
+weight: 2
 date: 2020-08-08T17:27:59+07:00
 description: "Moved website to a new platform to enhance functionality and improve aesthetic."
 

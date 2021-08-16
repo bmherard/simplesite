@@ -3,6 +3,17 @@
 	<article class="container">
 		<h1>{{ .Title }}</h1>
 			{{ .Content }}
+			<h3>Web Development &amp; Design Tools</h3>
+			<div class="grid-4">
+				{{ range .Site.Data.apps }}
+				<div>
+					<a href="{{ .url }}"><img style="height: 100px; width: auto" src="{{ .image }}" alt="{{ .title }}"></a>
+					<p><a href="{{ .url }}"><strong>{{ .title }}</strong></a><br />
+					<p>{{ .description }}</p>
+				</div>
+				{{ end }}
+			</div>
+			<hr style="border-top: 1px solid lightgrey; margin:40px 0"><br />
 			<h3>Books</h3>
 			<div class="grid-4">
 				{{ range .Site.Data.books }}
@@ -10,17 +21,6 @@
 					<a href="{{ .url }}" target="_blank"><img style="height: 100px; width: auto" src="{{ .image }}" alt="{{ .title }}"></a>
 					<p><a href="{{ .url }}"><strong>{{ .title }}</strong></a><br />
 					<em>by</em> {{ .author }}</p>
-					<p>{{ .description }}</p>
-				</div>
-				{{ end }}
-			</div>
-			<hr style="border-top: 1px solid lightgrey; margin:40px 0"><br />
-			<h3>Web Development &amp; Design Tools</h3>
-			<div class="grid-4">
-				{{ range .Site.Data.apps }}
-				<div>
-					<a href="{{ .url }}"><img style="height: 100px; width: auto" src="{{ .image }}" alt="{{ .title }}"></a>
-					<p><a href="{{ .url }}"><strong>{{ .title }}</strong></a><br />
 					<p>{{ .description }}</p>
 				</div>
 				{{ end }}
